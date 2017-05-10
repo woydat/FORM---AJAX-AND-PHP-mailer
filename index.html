@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form (name, e-mail, message), Ajax and PHPmailer.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="form" method="post" action="">
+        <div class="input-group">
+
+            <input id="messageInput" type="text" class="form-control" id="newsletter-last-name" placeholder="Whats your name?" autocomplete="off" style="width:300px;">
+            <button id="nextButton" type="submit">next</button>
+            <div class="stepsFormNumber">
+                <span class="stepsFormNumber_current">1 of</span>
+                <span class="stepsFormNumber_total">3</span>
+            </div>
+            <div class="progress-bar">
+                <span></span>
+            </div>
+            <p id="errorMsg"></p>
+            <div class="inputValue">
+                <p id="name"></p>
+                <p id="email"></p>
+                <p id="message"></p>
+            </div>
+        </div>
+    </form>
+<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>
